@@ -1,6 +1,18 @@
 *.class
 *.log
 
+# maven
+target/
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
 # sbt specific
 .cache
 .history
@@ -12,6 +24,13 @@ src_managed/
 project/boot/
 project/plugins/project/
 
+# Intellij IDEA
+*.iml
+.idea/
+
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+#spark
+spakr-warehouse/
